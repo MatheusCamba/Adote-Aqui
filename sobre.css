@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Mochiy+Pop+P+One&display=swap');
+
+body {
+    font-family: 'Bangers', cursive;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    padding: 80px;
+
+}
+
+h1 {
+    font-size: 39px;
+    color: #ca5928;
+    transition: 0.5s;
+}
+
+h1:hover {
+    font-size: 40px;
+    cursor: text;
+}
+
+.logoprincipal {
+    width: 50px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #ca5928;
+    transition: 0.5s;
+}
+
+a:hover {
+    cursor: pointer;
+    color: white;
+
+}
+
+.menu {
+    display: flex;
+    
+}
+
+@media (max-width: 700px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+
+li {
+    margin-left: 100px;
+}
+
+@media (max-width: 700px) {
+    li {
+        margin-bottom: 20px;
+    }
+}
+
+.menu_principal {
+    margin-top: 50px;
+    background-image: url("imgPets/background_kiba_akamaru.png");
+    background-size: contain;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #ca5928;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(223, 233, 233);
+    width: 700px;
+    height: 400px;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(223, 233, 233);
+    border-width: 5px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #9890e3;
+    
+}
+
+h3 {
+    text-align: justify;
+    font-size: 20px;
+    color: #ca5928;
+    
+}
+
+p {
+    text-indent: 40px;
+
+}
+
+.rodape {
+    display: flex;
+    margin-top: 300px;
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    justify-content: center;
+    padding: 20px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ca5928;
+    text-align: center;
+}
+
+.container5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:700px) {
+    .container5 {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+.imagem_pura15 {
+    width: 90px;
+    height: 80px;
+}
+
+.imagem_pura16 {
+    width: 200px;
+    height: 130px;
+}
+
+.imagem_pura17 {
+    width: 120px;
+    height: 100px;
+}
